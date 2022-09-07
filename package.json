@@ -1,0 +1,22 @@
+{
+  "name": "r5servers",
+  "version": "1.0.0",
+  "description": "\"hello\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toarupgm/r5servers.git"
+  },
+  "author": "toarupgm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toarupgm/r5servers/issues"
+  },
+  "homepage": "https://github.com/toarupgm/r5servers#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
