@@ -1,0 +1,16 @@
+body {
+    background: #333;
+    color:white;
+    padding:25px;
+}
+
+table {
+    width:100%;
+    font-size:large;
+    border-collapse: collapse;
+    background: #3e3e3e;
+}
+th {
+    padding:5px;
+    border: 1px solid white;
+}

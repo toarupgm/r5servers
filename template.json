@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "servers": [
+    {
+      "name": "Flowstate FFA Drop-Off. Random Weapons Abilities",
+      "description": "",
+      "map": "mp_rr_arena_composite",
+      "ip": "198.251.65.251",
+      "port": "37015",
+      "playlist": "custom_tdm",
+      "key": "WDNWLmJYQ2ZlM0VoTid3Yg==",
+      "hidden": "false",
+      "playerCount": "22",
+      "maxPlayers": "32"
+    },
+    {
+      "name": "Flowstate TDM TTV Building",
+      "description": "",
+      "map": "mp_rr_desertlands_64k_x_64k_nx",
+      "ip": "198.251.65.251",
+      "port": "37017",
+      "playlist": "custom_tdm",
+      "key": "WDNWLmJYQ2ZlM0VoTid3Yg==",
+      "hidden": "false",
+      "playerCount": "31",
+      "maxPlayers": "36"
+    },
+    {
+      "name": "Apex SURF gamemode",
+      "description": "",
+      "map": "mp_rr_desertlands_64k_x_64k",
+      "ip": "198.251.65.251",
+      "port": "37016",
+      "playlist": "custom_tdm",
+      "key": "WDNWLmJYQ2ZlM0VoTid3Yg==",
+      "hidden": "false",
+      "playerCount": "1",
+      "maxPlayers": "16"
+    },
+    {
+      "name": "Capture the Flag - Global Chat",
+      "description": "Welcome to AyeZees Capture the flag server",
+      "map": "mp_rr_canyonlands_64k_x_64k",
+      "ip": "144.126.131.181",
+      "port": "37015",
+      "playlist": "custom_ctf",
+      "key": "2adbWglDRLWNHDqAhOg3tA==",
+      "hidden": "false",
+      "playerCount": "1",
+      "maxPlayers": "18"
+    },
+    {
+      "name": "Flowstate FFA R99 Wingman KC Sever auto restarts every 6 hours",
+      "description": "",
+      "map": "mp_rr_canyonlands_mu1",
+      "ip": "144.126.131.181",
+      "port": "37016",
+      "playlist": "custom_tdm",
+      "key": "+jl83ajCdj3SameCwbvq4g==",
+      "hidden": "false",
+      "playerCount": "16",
+      "maxPlayers": "21"
+    }
+  ]
+}

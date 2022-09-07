@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>プレイヤー</th>
+            <th>サーバー名</th>
+            <th>説明</th>
+            <th>マップ</th>
+            <th>プレイリスト</th>
+        </tr>
+        <% for (var i = 0;i < servers.length;i++) { %> 
+            <tr>
+                <% const server = servers[i] %>
+                <th><%= server["playerCount"] %>/<%= server["maxPlayers"] %></th>
+                <th alt=<%= server["name"]%>><%= server["name"] %></th>
+                <th alt=<%= server["description"] %>><%= server["description"] %></th>
+                <th><%= server["map"] %></th>
+                <th><%= server["playlist"] %></th>
+            </tr>
+        <% } %> 
+    </table>
+</body>
+</html>
