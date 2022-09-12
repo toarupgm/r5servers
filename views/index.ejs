@@ -18,10 +18,11 @@
         <% for (var i = 0;i < servers.length;i++) { %> 
             <tr>
                 <% const server = servers[i] %>
-                <th><%= server["playerCount"] %>/<%= server["maxPlayers"] %></th>
+                <% const per = String(server["playerCount"]*(255/max)) %>
+                <th <%- "style=\"background: RGB(" + per + ",0,0" + ")\"" %>><%= server["playerCount"] %>/<%= server["maxPlayers"] %></th>
                 <th alt=<%= server["name"]%>><%= server["name"] %></th>
                 <th alt=<%= server["description"] %>><%= server["description"] %></th>
-                <th><%= server["map"] %></th>
+                <th><%= server["displaymap"] %></th>
                 <th><%= server["playlist"] %></th>
             </tr>
         <% } %> 
